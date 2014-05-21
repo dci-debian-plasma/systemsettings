@@ -1,0 +1,8 @@
+./usr/include/systemsettingsview/BaseData.h
+./usr/include/systemsettingsview/BaseMode.h
+./usr/include/systemsettingsview/MenuItem.h
+./usr/include/systemsettingsview/MenuModel.h
+./usr/include/systemsettingsview/MenuProxyModel.h
+./usr/include/systemsettingsview/ModuleView.h
+./usr/include/systemsettingsview/systemsettingsview_export.h
+./usr/lib/x86_64-linux-gnu/libsystemsettingsview.so
