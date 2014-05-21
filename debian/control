@@ -22,10 +22,12 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5guiaddons-dev (>= 4.99.0), libkf5emoticons-dev (>= 4.99.0),
  libkf5crash-dev (>= 4.99.0), libkf5solid-dev (>= 4.99.0),
  libkf5jobwidgets-dev (>= 4.99.0), libkf5completion-dev (>= 4.99.0),
- libkf5codecs-dev (>= 4.99.0)
+ libkf5codecs-dev (>= 4.99.0), libkf5kjs-dev (>= 4.99.0),
+ libkf5wallet-dev (>= 4.99.0), libkf5kcmutils-dev (>= 4.99.0),
+ libkf5kdelibs4support5-bin (>= 4.99.0), libkf5kdelibs4support-dev (>= 4.99.0)
 Standards-Version: 3.9.5
 Section: libs
-Homepage: https://projects.kde.org/projects/kde/workspace/kmenuedit
+Homepage: https://projects.kde.org/projects/kde/unstable/plasma/systemsettings
 
 Package: systemsettings
 Section: utils
