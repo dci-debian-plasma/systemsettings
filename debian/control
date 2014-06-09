@@ -2,40 +2,62 @@ Source: systemsettings
 Priority: extra
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.14), pkg-kde-tools, xvfb, qtbase5-dev,
- libkf5itemviews-dev (>= 4.100.0), libkf5dbusaddons-dev (>= 4.100.0),
- libkf5kcmutils-dev (>= 4.100.0), libkf5i18n-dev (>= 4.100.0),
- kio-dev (>= 4.100.0), libkf5service-dev (>= 4.100.0),
- libkf5iconthemes-dev (>= 4.100.0), libkf5windowsystem-dev (>= 4.100.0),
- libkf5xmlgui-dev (>= 4.100.0), libkf5config-dev (>= 4.100.0),
- libkf5khtml-dev (>= 4.100.0), libkf5kdelibs4support-dev (>= 4.100.0),
- libkf5auth-dev (>= 4.100.0), kdoctools-dev (>= 4.100.0),
- kgendesignerplugin (>= 4.100.0), libkf5unitconversion-dev (>= 4.100.0),
- libkf5textwidgets-dev (>= 4.100.0), libkf5parts-dev (>= 4.100.0),
- libkf5widgetsaddons-dev (>= 4.100.0), libkf5coreaddons-dev (>= 4.100.0),
- libkf5wallet-dev (>= 4.100.0), libkf5sonnet-dev (>= 4.100.0),
- libkf5notifications-dev (>= 4.100.0), libkf5kjs-dev (>= 4.100.0),
- libkf5globalaccel-dev (>= 4.100.0), libkf5bookmarks-dev (>= 4.100.0),
- libkf5attica-dev (>= 4.100.0), libkf5configwidgets-dev (>= 4.100.0),
- kinit-dev (>= 4.100.0), libkf5itemmodels-dev (>= 4.100.0),
- libkf5guiaddons-dev (>= 4.100.0), libkf5emoticons-dev (>= 4.100.0),
- libkf5crash-dev (>= 4.100.0), libkf5solid-dev (>= 4.100.0),
- libkf5jobwidgets-dev (>= 4.100.0), libkf5completion-dev (>= 4.100.0),
- libkf5codecs-dev (>= 4.100.0), libkf5kjs-dev (>= 4.100.0),
- libkf5wallet-dev (>= 4.100.0), libkf5kcmutils-dev (>= 4.100.0),
- libkf5kdelibs4support5-bin (>= 4.100.0), libkf5kdelibs4support-dev (>= 4.100.0)
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               kdoctools-dev (>= 4.100.0),
+               kgendesignerplugin (>= 4.100.0),
+               kinit-dev (>= 4.100.0),
+               kio-dev (>= 4.100.0),
+               libkf5attica-dev (>= 4.100.0),
+               libkf5auth-dev (>= 4.100.0),
+               libkf5bookmarks-dev (>= 4.100.0),
+               libkf5codecs-dev (>= 4.100.0),
+               libkf5completion-dev (>= 4.100.0),
+               libkf5config-dev (>= 4.100.0),
+               libkf5configwidgets-dev (>= 4.100.0),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5crash-dev (>= 4.100.0),
+               libkf5dbusaddons-dev (>= 4.100.0),
+               libkf5emoticons-dev (>= 4.100.0),
+               libkf5globalaccel-dev (>= 4.100.0),
+               libkf5guiaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5iconthemes-dev (>= 4.100.0),
+               libkf5itemmodels-dev (>= 4.100.0),
+               libkf5itemviews-dev (>= 4.100.0),
+               libkf5jobwidgets-dev (>= 4.100.0),
+               libkf5kcmutils-dev (>= 4.100.0),
+               libkf5kdelibs4support-dev (>= 4.100.0),
+               libkf5kdelibs4support5-bin (>= 4.100.0),
+               libkf5khtml-dev (>= 4.100.0),
+               libkf5kjs-dev (>= 4.100.0),
+               libkf5notifications-dev (>= 4.100.0),
+               libkf5parts-dev (>= 4.100.0),
+               libkf5service-dev (>= 4.100.0),
+               libkf5solid-dev (>= 4.100.0),
+               libkf5sonnet-dev (>= 4.100.0),
+               libkf5textwidgets-dev (>= 4.100.0),
+               libkf5unitconversion-dev (>= 4.100.0),
+               libkf5wallet-dev (>= 4.100.0),
+               libkf5widgetsaddons-dev (>= 4.100.0),
+               libkf5windowsystem-dev (>= 4.100.0),
+               libkf5xmlgui-dev (>= 4.100.0),
+               pkg-kde-tools,
+               qtbase5-dev,
+               xvfb
 Standards-Version: 3.9.5
 Section: libs
 Homepage: https://projects.kde.org/projects/kde/workspace/systemsettings
 Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/systemsettings
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/systemsettings
 
-
 Package: systemsettings
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, systemsettings-data (= ${binary:Version})
+Depends: systemsettings-data (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: System Settings interface
  Desktop configuration application.
  .
@@ -44,7 +66,7 @@ Description: System Settings interface
 Package: systemsettings-data
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: System Settings interface data files
  Desktop configuration application.
  .
@@ -54,7 +76,7 @@ Package: systemsettings-dbg
 Section: debug
 Architecture: any
 Recommends: qtbase5-dbg
-Depends: ${misc:Depends}, systemsettings (= ${binary:Version})
+Depends: systemsettings (= ${binary:Version}), ${misc:Depends}
 Description: System Settings interface debug files
  Desktop configuration application.
  .
