@@ -43,7 +43,7 @@ Build-Depends: cmake,
                libkf5widgetsaddons-dev (>= 5.0.0),
                libkf5windowsystem-dev (>= 5.0.0),
                libkf5xmlgui-dev (>= 5.0.0),
-               pkg-kde-tools,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev,
                xvfb
 Standards-Version: 3.9.5
