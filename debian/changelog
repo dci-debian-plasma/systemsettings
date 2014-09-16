@@ -11,6 +11,7 @@ systemsettings (4:5.0.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * switch to new pkg-kde-tools
+  * switch to new pkg-kde-tools
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:46:42 +0200
 
