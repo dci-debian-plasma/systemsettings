@@ -1,6 +1,7 @@
 systemsettings (4:5.0.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Bump depends versions 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:24:08 -0700
 
