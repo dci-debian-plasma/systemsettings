@@ -58,19 +58,12 @@ Architecture: any
 Depends: systemsettings-data (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: systemsettings-data (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa3)
+Replaces: systemsettings-data (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa3)
 Description: System Settings interface
  Desktop configuration application.
  .
  This package is part of the KDE base workspace module.
-
-Package: systemsettings-data
-Section: libs
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: System Settings interface data files
- Desktop configuration application.
- .
- This package contains the data files
 
 Package: systemsettings-dbg
 Section: debug
