@@ -56,8 +56,8 @@ Section: utils
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends}
-Breaks: systemsettings-data (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa3)
-Replaces: systemsettings-data (<< 4:5.0.2-0ubuntu1~ubuntu14.10~ppa3)
+Breaks: systemsettings-data (<< 4:5.0.2+git20140920~)
+Replaces: systemsettings-data (<< 4:5.0.2+git20140920~)
 Description: System Settings interface
  Desktop configuration application.
  .
