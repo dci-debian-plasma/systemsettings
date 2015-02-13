@@ -28,19 +28,11 @@ systemsettings (4:5.1.1-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:54:29 +0100
 
-systemsettings (4:5.1.0.1-0ubuntu1) UNRELEASED; urgency=medium
-
-  * New upstream beta release
-  * New upstream release
-  * New upstream release with fixed tar
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 14 Oct 2014 13:51:53 +0200
-
 systemsettings (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
-  * Bump depends versions 
+  * Bump depends versions
 
   [ Harald Sitter ]
   * Drop -data package and merge it into the regular systemsettings package
@@ -53,7 +45,7 @@ systemsettings (4:5.0.1-0ubuntu1~ubuntu14.10~ppa3) utopic; urgency=medium
   * New upstream release
 
   [ Scarlett Clark ]
-  * Update watch to http://download.kde.org 
+  * Update watch to http://download.kde.org
 
   [ Jonathan Riddell ]
   * New upstream bugfix release
