@@ -1,5 +1,6 @@
 Source: systemsettings
-Priority: extra
+Section: kde
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
@@ -18,13 +19,11 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                xvfb
 Standards-Version: 3.9.5
-Section: libs
 Homepage: https://projects.kde.org/projects/kde/workspace/systemsettings
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/systemsettings.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/systemsettings.git
 
 Package: systemsettings
-Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: systemsettings-data (<< 4:5.0.2+git20140920~)
@@ -36,9 +35,10 @@ Description: System Settings interface
 
 Package: systemsettings-dbg
 Section: debug
+Priority: extra
 Architecture: any
-Recommends: qtbase5-dbg
 Depends: systemsettings (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
 Description: System Settings interface debug files
  Desktop configuration application.
  .
