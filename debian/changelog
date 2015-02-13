@@ -1,6 +1,7 @@
 systemsettings (4:5.2.0-1~) UNRELEASED; urgency=medium
 
   * Prepare initial Debian release.
+  * Add myself as Uploader.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 13 Feb 2015 10:15:02 +0100
 
