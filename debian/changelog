@@ -1,9 +1,14 @@
 systemsettings (4:5.2.2-1) experimental; urgency=medium
 
-  * New upstream release (5.2.1).
+  * Team upload.
+
+  [ Maximiliano Curia ]
   * New upstream release (5.2.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:17:32 +0100
+  [ Felix Geyer ]
+  * Document LGPL license of some .po files.
+
+ -- Felix Geyer <fgeyer@debian.org>  Thu, 18 Jun 2015 22:58:01 +0200
 
 systemsettings (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
