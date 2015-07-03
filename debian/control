@@ -18,7 +18,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5service-dev,
                libkf5windowsystem-dev (>= 5.2.0),
                libkf5xmlgui-dev (>= 5.2.0),
-               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               pkg-kde-tools (>= 0.15.18~),
                qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/systemsettings
@@ -28,8 +28,10 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/systemsettings.git
 Package: systemsettings
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: systemsettings-data (<< 4:5.0.2+git20140920~)
-Replaces: systemsettings-data (<< 4:5.0.2+git20140920~)
+Breaks: systemsettings-data (<< 4:5.0.2+git20140920~),
+        ${kde-l10n:all}
+Replaces: systemsettings-data (<< 4:5.0.2+git20140920~),
+          ${kde-l10n:all}
 Description: System Settings interface
  Desktop configuration application.
  .
