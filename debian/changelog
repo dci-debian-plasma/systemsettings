@@ -4,10 +4,18 @@ systemsettings (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release Xenial
 
   [ Clive Johnston ]
-  * new upstream release
   * New upstream release
 
+  [ Philip Muškovac ]
+  * Merge with debian git master 
+
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 18:08:03 +0000
+
+systemsettings (4:5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:45:47 +0100
 
 systemsettings (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
@@ -20,17 +28,35 @@ systemsettings (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Nov 2015 16:50:48 +0100
 
+systemsettings (4:5.4.2-1) unstable; urgency=medium
+
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:51:59 +0200
+
 systemsettings (4:5.4.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 02 Oct 2015 16:04:05 +0100
 
+systemsettings (4:5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:09 +0200
+
 systemsettings (4:5.4.1-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 08 Sep 2015 10:27:40 +0100
+
+systemsettings (4:5.4.0-1) unstable; urgency=medium
+
+  * New upstream release (5.4.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Sep 2015 19:08:32 +0200
 
 systemsettings (4:5.4.0-0ubuntu1) wily; urgency=medium
 
@@ -43,6 +69,18 @@ systemsettings (4:5.3.95-0ubuntu1) wily; urgency=medium
   * new upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:23:32 +0200
+
+systemsettings (4:5.3.2-2) unstable; urgency=medium
+
+  * Add the missing Breaks/Replaces. (Closes: #790702, #789674)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 14:07:52 +0200
+
+systemsettings (4:5.3.2-1) unstable; urgency=medium
+
+  * New upstream release (5.3.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 23:35:12 +0200
 
 systemsettings (4:5.3.2-0ubuntu1) wily; urgency=medium
 
@@ -64,12 +102,12 @@ systemsettings (4:5.3.1-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:54:32 +0200
 
-systemsettings (4:5.3.1-1~) UNRELEASED; urgency=medium
+systemsettings (4:5.3.1-1) unstable; urgency=medium
 
   * New upstream release (5.3.0).
   * New upstream release (5.3.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:54:51 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 11:46:01 +0200
 
 systemsettings (4:5.2.2-1) experimental; urgency=medium
 

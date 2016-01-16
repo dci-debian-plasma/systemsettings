@@ -28,8 +28,10 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/systemsettings.git
 Package: systemsettings
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: systemsettings-data (<< 4:5.0.2+git20140920~)
-Replaces: systemsettings-data (<< 4:5.0.2+git20140920~)
+Breaks: systemsettings-data (<< 4:5.0.2+git20140920~),
+        ${kde-l10n:all}
+Replaces: systemsettings-data (<< 4:5.0.2+git20140920~),
+          ${kde-l10n:all}
 Description: System Settings interface
  Desktop configuration application.
  .
