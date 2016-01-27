@@ -1,11 +1,12 @@
-systemsettings (4:5.5.3-1~) UNRELEASED; urgency=medium
+systemsettings (4:5.5.4-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.5.0).
   * New upstream release (5.5.1).
   * New upstream release (5.5.2).
   * New upstream release (5.5.3).
+  * New upstream release (5.5.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 24 Jan 2016 18:50:48 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 12:09:38 +0100
 
 systemsettings (4:5.4.3-1) unstable; urgency=medium
 
