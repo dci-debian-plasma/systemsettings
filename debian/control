@@ -28,22 +28,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/systemsettings.git
 Package: systemsettings
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: systemsettings-data (<< 4:5.0.2+git20140920~),
-        ${kde-l10n:all}
-Replaces: systemsettings-data (<< 4:5.0.2+git20140920~),
-          ${kde-l10n:all}
+Breaks: systemsettings-data (<< 4:5.0.2+git20140920~), ${kde-l10n:all}
+Replaces: systemsettings-data (<< 4:5.0.2+git20140920~), ${kde-l10n:all}
 Description: System Settings interface
  Desktop configuration application.
  .
  This package is part of the KDE base workspace module.
-
-Package: systemsettings-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: systemsettings (= ${binary:Version}), ${misc:Depends}
-Recommends: qtbase5-dbg
-Description: System Settings interface debug files
- Desktop configuration application.
- .
- This package contains the debugging symbols.
