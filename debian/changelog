@@ -2,15 +2,7 @@ systemsettings (4:5.6.2-1~1.gbpedd8cf) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @edd8cf2c996cdd5ee6bafeddbf0afcbe14dbff89 **
 
-  * UNRELEASED
-
  -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 06 Apr 2016 23:03:12 +0200
-
-systemsettings (4:5.5.5-1~) UNRELEASED; urgency=medium
-
-  * New upstream release (5.5.5).
-
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Mar 2016 17:20:55 +0100
 
 systemsettings (4:5.5.4-1) experimental; urgency=medium
 
