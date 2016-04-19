@@ -1,8 +1,20 @@
-systemsettings (4:5.6.2-1~1.gbpedd8cf) UNRELEASED; urgency=medium
+systemsettings (4:5.6.3-1~1.gbp3d5501) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @3d55014fe0696b18a7d2bb12c99772b438e3e87f **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @edd8cf2c996cdd5ee6bafeddbf0afcbe14dbff89 **
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Force installing in debian/tmp
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 06 Apr 2016 23:03:12 +0200
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 16:08:18 +0200
 
 systemsettings (4:5.5.4-1) experimental; urgency=medium
 
