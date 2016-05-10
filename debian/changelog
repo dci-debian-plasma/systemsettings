@@ -1,6 +1,6 @@
-systemsettings (4:5.6.3-1~1.gbp3d5501) UNRELEASED; urgency=medium
+systemsettings (4:5.6.4-1~1.gbp118ce7) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3d55014fe0696b18a7d2bb12c99772b438e3e87f **
+  ** SNAPSHOT build @118ce796e0d010a74fd6dcc2e21cf05026f5b935 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @edd8cf2c996cdd5ee6bafeddbf0afcbe14dbff89 **
@@ -10,11 +10,12 @@ systemsettings (4:5.6.3-1~1.gbp3d5501) UNRELEASED; urgency=medium
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 16:08:18 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:03:12 +0200
 
 systemsettings (4:5.5.4-1) experimental; urgency=medium
 
