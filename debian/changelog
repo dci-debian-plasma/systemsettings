@@ -1,10 +1,8 @@
-systemsettings (4:5.6.5-1~1.gbp130f67) UNRELEASED; urgency=medium
+systemsettings (4:5.6.5-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @130f671e26dfb424b75c51cee20a8965c533aa37 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 16:03:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 09:55:42 +0200
 
 systemsettings (4:5.6.4-1) unstable; urgency=medium
 
