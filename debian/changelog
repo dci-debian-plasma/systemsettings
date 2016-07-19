@@ -1,10 +1,11 @@
-systemsettings (4:5.7.1-1~1.gbpb11c5a) UNRELEASED; urgency=medium
+systemsettings (4:5.7.2-1~1.gbp053534) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b11c5a290f15014fdd1093321979ebe8812f32c6 **
+  ** SNAPSHOT build @053534487e05933c1876014f9e59358b6897ca3a **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 22:03:11 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 19 Jul 2016 16:03:12 +0200
 
 systemsettings (4:5.7.0-1) unstable; urgency=medium
 
