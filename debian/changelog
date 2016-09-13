@@ -1,3 +1,11 @@
+systemsettings (4:5.7.5-1~1.gbp4fe9e0) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4fe9e0be26d19cade75984709993de94ef12a9c5 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 13 Sep 2016 16:03:33 +0200
+
 systemsettings (4:5.7.4-1) unstable; urgency=medium
 
   * New upstream release (5.7.4)
