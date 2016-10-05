@@ -1,11 +1,12 @@
-systemsettings (4:5.8.0-1~1.gbp3ba386) UNRELEASED; urgency=medium
+systemsettings (4:5.8.0-1~2.gbp7f1951) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @3ba3860ff152e481146e802983cc8eed65f4ea17 **
+  ** SNAPSHOT build @7f1951d28ca0d9801bc01e98ab2417e58791fe4a **
 
   * Update build-deps and deps with the info from cmake
   * UNRELEASED
+  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:40:50 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Wed, 05 Oct 2016 20:03:31 +0200
 
 systemsettings (4:5.7.4-1) unstable; urgency=medium
 
