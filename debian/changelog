@@ -1,3 +1,11 @@
+systemsettings (4:5.8.3-1~1.gbp17b36c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @17b36cad251c6c42e7224a753d4175c52e383e98 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 01 Nov 2016 16:03:12 +0100
+
 systemsettings (4:5.8.2-1) unstable; urgency=medium
 
   * New upstream release (5.8.2)
