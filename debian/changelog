@@ -1,11 +1,8 @@
-systemsettings (4:5.8.4-1~1.gbp3d97be) UNRELEASED; urgency=medium
+systemsettings (4:5.8.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @3d97be076053d9bc3c9b353de13d5084cc2edbbc **
+  * New upstream release (5.8.4)
 
-  * UNRELEASED
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 16:03:23 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:39:11 +0100
 
 systemsettings (4:5.8.2-1) unstable; urgency=medium
 
