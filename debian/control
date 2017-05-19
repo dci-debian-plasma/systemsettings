@@ -20,7 +20,8 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5windowsystem-dev (>= 5.30~),
                libkf5xmlgui-dev (>= 5.30~),
                pkg-kde-tools (>= 0.15.18~),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.4.0~),
+               qtdeclarative5-dev
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/systemsettings
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/systemsettings.git
