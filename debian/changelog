@@ -1,3 +1,29 @@
+systemsettings (4:5.8.7-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.8.7)
+     + Set the correct desktop file name when in a KDE session.
+        System Settings installs two .desktop files:
+        - kdesystemsettings.desktop setting NotShowIn=KDE, for non-KDE desktops
+        - systemsettings.desktop, the one we use in Plasma
+        As of 39e13de3468a, it sets "kdesystemsettings" as its desktop file
+        name using KAboutData. As this is not the one we show in our menus,
+        it's not the one used as applicationId for the KStartupInfo provided
+        to the Task Manager after starting System Settings. With the eventual
+        window telling the Task Manager to use a different .desktop file, the
+        Task Manager can no longer match up the startup notification and the
+        window, causing them to co-exist instead of replace each other.
+        Telling the environment you're running in to look at a .desktop file
+        you've also told it to ignore is wrong app behavior, and this should
+        not be worked around in the Task Manager (especially as it would
+        cause I/O in a hotpath, requiring it to open and parse the .desktop
+        file to realize it's crummy and ignore it, falling back from the
+        window hint to a slow heuristic).
+        This patch instead makes it use the correct desktop file name when
+        KDE_FULL_SESSION is set. This completes the original hack of shipping
+        two .desktop files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 14 Jun 2017 13:11:53 +0200
+
 systemsettings (4:5.8.5-1) experimental; urgency=medium
 
   * New upstream release (5.8.5).
