@@ -1,4 +1,4 @@
-systemsettings (4:5.8.7-1~) UNRELEASED; urgency=medium
+systemsettings (4:5.8.7-1) unstable; urgency=medium
 
   * New upstream release (5.8.7)
      + Set the correct desktop file name when in a KDE session.
@@ -22,7 +22,7 @@ systemsettings (4:5.8.7-1~) UNRELEASED; urgency=medium
         KDE_FULL_SESSION is set. This completes the original hack of shipping
         two .desktop files.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 14 Jun 2017 13:11:53 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Jun 2017 10:51:05 +0200
 
 systemsettings (4:5.8.5-1) experimental; urgency=medium
 
