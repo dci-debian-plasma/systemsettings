@@ -25,7 +25,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5xmlgui-dev (>= 5.30~),
                pkg-kde-tools (>= 0.15.18~),
                qtbase5-dev (>= 5.4.0~),
-               qtdeclarative5-dev
+               qtdeclarative5-dev,
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/systemsettings
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/systemsettings.git
@@ -38,7 +38,7 @@ Depends: qml-module-org-kde-kirigami2,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Breaks: systemsettings-data (<< 4:5.0.2+git20140920~), ${kde-l10n:all}
 Replaces: systemsettings-data (<< 4:5.0.2+git20140920~), ${kde-l10n:all}
 Description: System Settings interface
