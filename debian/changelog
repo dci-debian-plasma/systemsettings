@@ -1,8 +1,21 @@
-systemsettings (4:5.10.3-1~) UNRELEASED; urgency=medium
+systemsettings (4:5.10.4-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.10.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * Sync debian/watch and debian/upstream/signing-key.asc with neon
+  * New upstream release (5.10.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 11:53:43 +0200
+  [ Jonathan Riddell ]
+  * Qt5QuickConfig
+  * KF5 (missing: Package Declarative)
+  * qmllint
+  * KF5Kirigami2Config.cmake
+  * Could NOT find KF5 (missing: Activities ActivitiesStats)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 13:30:52 +0200
 
 systemsettings (4:5.8.7-1) unstable; urgency=medium
 
