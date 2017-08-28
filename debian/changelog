@@ -1,4 +1,4 @@
-systemsettings (4:5.10.5-1~) UNRELEASED; urgency=medium
+systemsettings (4:5.10.5-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.3).
@@ -9,6 +9,7 @@ systemsettings (4:5.10.5-1~) UNRELEASED; urgency=medium
   * New upstream release (5.10.4).
   * Update build-deps and deps with the info from cmake
   * New upstream release (5.10.5).
+  * Release to experimental
 
   [ Jonathan Riddell ]
   * Qt5QuickConfig
@@ -17,7 +18,7 @@ systemsettings (4:5.10.5-1~) UNRELEASED; urgency=medium
   * KF5Kirigami2Config.cmake
   * Could NOT find KF5 (missing: Activities ActivitiesStats)
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 27 Aug 2017 12:51:38 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 15:29:01 +0200
 
 systemsettings (4:5.8.7-1) unstable; urgency=medium
 
