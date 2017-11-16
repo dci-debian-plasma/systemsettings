@@ -8,8 +8,12 @@ Build-Depends: cmake (>= 2.8.12),
                extra-cmake-modules (>= 5.18.0~),
                kdoctools-dev (>= 5.18.0~),
                kio-dev (>= 5.18.0~),
+               kirigami2-dev,
+               libkf5activities-dev,
+               libkf5activitiesstats-dev,
                libkf5config-dev (>= 5.18.0~),
                libkf5dbusaddons-dev (>= 5.18.0~),
+               libkf5declarative-dev,
                libkf5i18n-dev (>= 5.18.0~),
                libkf5iconthemes-dev (>= 5.18.0~),
                libkf5itemviews-dev (>= 5.18.0~),
@@ -19,7 +23,8 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5windowsystem-dev (>= 5.18.0~),
                libkf5xmlgui-dev (>= 5.18.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4.0~)
+               qtbase5-dev (>= 5.4.0~),
+               qtdeclarative5-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/systemsettings
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/systemsettings.git
@@ -27,7 +32,12 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/systemsettings.git
 
 Package: systemsettings
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-org-kde-kirigami2,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: systemsettings-data (<< 4:5.0.2+git20140920~), ${kde-l10n:all}
 Replaces: systemsettings-data (<< 4:5.0.2+git20140920~), ${kde-l10n:all}
 Description: System Settings interface
