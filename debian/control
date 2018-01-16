@@ -27,7 +27,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/systemsettings.git
 
 Package: systemsettings
 Architecture: any
-Depends: qml-module-org-kde-kcm
+Depends: qml-module-org-kde-kcm,
 ${misc: Depends}, ${shlibs:Depends}
 Breaks: systemsettings-data (<< 4:5.0.2+git20140920~), ${kde-l10n:all}
 Replaces: systemsettings-data (<< 4:5.0.2+git20140920~), ${kde-l10n:all}
