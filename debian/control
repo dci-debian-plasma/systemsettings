@@ -32,7 +32,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/systemsettings.git
 
 Package: systemsettings
 Architecture: any
-Depends: qml-module-org-kde-kirigami2,
+Depends: qml-module-org-kde-kcm,
+         qml-module-org-kde-kirigami2,
          qml-module-qtquick-controls,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
