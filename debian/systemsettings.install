@@ -1,3 +1,4 @@
+etc/xdg/systemsettings.categories
 usr/bin
 usr/lib/*/libsystemsettingsview.so.3
 usr/lib/*/qt5
